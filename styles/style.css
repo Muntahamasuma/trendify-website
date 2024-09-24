@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex; 
+    align-items: center;
+    font-weight: 600;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 62px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+    color: #E43605;
+    font-weight: bold;
+}
+
+/* Button Styles */
+.contact-button button {
+    background: linear-gradient(to right, #E43605, #FFA500);
+    color: white;
+    font-weight: bold;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Hover effect for button */
+.contact-button button:hover {
+    background: linear-gradient(to right, #FFA500, #FFEB3B);
+    color: black;
+}
